@@ -13,6 +13,7 @@ def zadacha():
             vvod = int(input())
         except ValueError:
             print('Надо ввести число!')
+            res += 1
         else:
             if vvod > num:
                 print("Загаданное число меньше!")
