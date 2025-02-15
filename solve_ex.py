@@ -21,10 +21,11 @@ def zadacha():
             elif vvod < num:
                 print("Загаданное число больше!")
                 res += 1
-                continue
+                continue    
             else:
                 print(f"Поздравляем! Вы угадали число за {res} попыток!")
                 break
+    else:
         print(f"К сожалению, вы не угадали число. Загаданное число было {num}.")
 
 
